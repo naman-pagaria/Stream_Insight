@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Main Container */
+h1 {
+    font-size: 2.5rem;
+    color: #ff0077;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+/* SVG Logo */
+.logo {
+    width: 120px;
+    height: auto;
+    margin: 0 auto 20px;
+    z-index: 3;
+}
+
+/* Button Icons */
+.iconLink svg {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2a2a3c;
+    margin: 0 15px;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    z-index: 3;
+}
+
+.iconLink:hover svg {
+    transform: scale(1.15);
+}
+
+/* Launch Page Container */
+.launchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Blurred Chat Bubbles */
+.blurredChats {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.chatBubble {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    animation: moveBubble 12s infinite linear;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.chatBubble.one {
+    left: 5%;
+    top: 10%;
+    animation-delay: 0s;
+}
+
+.chatBubble.two {
+    right: 5%;
+    top: 20%;
+    animation-delay: 2s;
+}
+
+.chatBubble.three {
+    left: 20%;
+    bottom: 20%;
+    animation-delay: 4s;
+}
+
+.chatBubble.four {
+    right: 10%;
+    bottom: 10%;
+    animation-delay: 6s;
+}
+
+@keyframes moveBubble {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(200px);
+    }
+}
+
+/* Button Icons Container */
+.iconButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    z-index: 3;
+}
+
+.iconLink {
+    margin: 0 20px;
+}
+/* Twitch Details Page */
+.twitch-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chat-window {
+    width: 80%;
+    height: 400px;
+    border: 2px solid #ff0077;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.chat-message {
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.chat-message.LABEL_1 {
+    color: #00FF00;
+}
+
+.chat-message.LABEL_0 {
+    color: #FF0000;
+}
+
