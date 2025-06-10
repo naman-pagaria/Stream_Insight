@@ -13,7 +13,7 @@ Stream Insight is a real-time web app that connects to Twitch chat, analyzes the
 
 ---
 ```
-## 🛠️ Project Structure
+## Project Structure
 
 Stream_Insight/
 ├── frontend/             # React UI
