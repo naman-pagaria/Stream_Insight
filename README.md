@@ -4,12 +4,12 @@ Stream Insight is a real-time web app that connects to Twitch chat, analyzes the
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔴 Live connection to Twitch IRC chat
-- 🤖 Sentiment classification with BERT (positive, neutral, negative)
-- 📊 Real-time frontend updates (React + Flask + WebSocket)
-- 🔐 Secure environment variable handling
+- Live connection to Twitch IRC chat
+- Sentiment classification with BERT (positive, neutral, negative)
+- Real-time frontend updates (React + Flask + WebSocket)
+- Secure environment variable handling
 
 ---
 ```
@@ -27,7 +27,7 @@ Stream_Insight/
 ```
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
 ### 1. Clone the repo
 
@@ -43,7 +43,7 @@ cp .env.example .env
 
 ---
 
-## ✅ Running the App (3-Terminal Setup)
+## Running the App (3-Terminal Setup)
 
 Open **3 terminals** and run:
 
@@ -65,7 +65,7 @@ python3 sentiment_api.py
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Install everything in a virtual environment:
 
