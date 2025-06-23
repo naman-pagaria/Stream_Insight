@@ -1,4 +1,4 @@
-# 🎥 Stream Insight — Real-Time Sentiment Analysis for Twitch Chat
+#Stream Insight — Real-Time Sentiment Analysis for Twitch Chat
 
 Stream Insight is a real-time web app that connects to Twitch chat, analyzes the sentiment of incoming messages using BERT, and visualizes audience mood as the stream progresses.
 
