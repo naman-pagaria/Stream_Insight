@@ -5,9 +5,6 @@ Stream Insight is a real-time web app that connects to Twitch chat, analyzes the
 ---
 
 ## 📽 Demo Video
-
-[![Watch demo on Google Drive](https://img.icons8.com/fluency/48/youtube-play.png)](https://drive.google.com/file/d/1t1tWyzdh4O6k-3e6xQIeaarnt6Tx278r/view?usp=sharing)
-
 🎥 [Click here to watch the full demo video](https://drive.google.com/file/d/1t1tWyzdh4O6k-3e6xQIeaarnt6Tx278r/view?usp=sharing)
 
 
